@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the login form correctly 1`] = `
+<DocumentFragment>
+  <form>
+    <label>
+      Usuário:
+      <input
+        data-testid="username-input"
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      Senha:
+      <input
+        data-testid="password-input"
+        type="password"
+        value=""
+      />
+    </label>
+    <button
+      data-testid="submit-button"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</DocumentFragment>
+`;
