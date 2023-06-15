@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import Greeting from '../components/Greeting';
 
 test('renders greeting message', () => {
-  render(<Greeting name="Lucas" />);
-  const linkElement = screen.getByText(/Olá, Lucas!/i);
+  render(<Greeting name="Victor" />);
+  const linkElement = screen.getByText(/Olá, Victor!/i);
   expect(linkElement).toBeInTheDocument();
 });
